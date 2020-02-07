@@ -1,0 +1,63 @@
+
+
+a:hover{
+background-color: brown;
+font-style: italic;
+
+
+}
+
+a:focus{
+background-color: cornflowerblue;
+
+}       
+
+
+a:active{
+background-color: crimson;
+
+}
+
+
+
+
+.container-lg{
+background-color: grey;
+
+
+}
+
+
+.card{
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+margin-left: 15px;
+margin-right: 20px;
+}
+
+.container-med{
+margin-top: 20px;
+background-color: white;
+margin-left: 150px;
+height: 400px;
+}
+
+
+
+
+.footer{
+    background-color: aqua;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 980px){}
+@media only screen and (max-width:768px){}
+@media only screen and (max-width:480px){}
